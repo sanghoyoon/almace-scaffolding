@@ -7,13 +7,13 @@
 # {{ author.web }}: used in atom feed
 # {{ author.twitter }}: used by Twitter Cards
 default:
-  name:         Tunghsiao Liu
-  email:        t@sparanoid.com
-  web:          http://sparanoid.com/
-  twitter:      tunghsiao
+  name:         Sangho Yoon
+  email:        sanghoway@gmail.com
+  web:          http://sanghoyoon.github.io
+  facebook:     http://facebook.com/sangho1124
 
 tester:
-  name:         Tester
-  email:        test@test.com
-  web:          http://tester.com/
-  twitter:      tester
+  name:         Sangho Yoon
+  email:        sanghoway@gmail.com
+  web:          http://sanghoyoon.github.io
+  facebook:     http://facebook.com/sangho1124
