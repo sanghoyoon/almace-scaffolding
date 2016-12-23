@@ -93,26 +93,26 @@ feed:           /feed.xml
 
 # PubSubHubbub Hub
 # Default:      https://pubsubhubbub.appspot.com/
-pshh:           https://pubsubhubbub.appspot.com/
+pshh:           https://sanghoyoon.github.io/
 
 # Used in atom feed, sitemap, Twitter Cards, and etc. I should use absolute full
 # URLs for these fields
 url:            https://sanghoyoon.github.io/
-.
+
 # Media assets URL used in posts, without trailing slash. ie.
 # `<img src="{{ site.file }}/image.png">`. In the most cases this URL should be
 # powered by a CDN provider
 # Note: you should avoid protocol-free (ie. //cdn.mysite.tld) address here
 # because Twitter Cards doesn't work well with protocol-free assets when AMSF
 # grabs the first image of your post as post featured image.
-file:           https://d349cztnlupsuf.cloudfront.net
+file:           https://sanghoyoon.github.io/
 
 # Download files URL used in posts, ie. href="{{ site.download }}/package.zip",
 # this should also be a CDN link just like `site.file`. There're no notable
 # differences in `site.file` and `site.download`, I just use the one for post
 # images and the other for large download files. That's it. Remove or ignore
 # this if you don't need it.
-download:       https://d1bmx7s6749k4k.cloudfront.net
+download:       https://sanghoyoon.github.io/
 
 # Google Analytics tracking code
 google_analytics:
@@ -121,7 +121,7 @@ google_analytics:
   url:          //www.google-analytics.com/analytics.js
 
 # Site Twitter account handle
-twitter:        윤상호 블로그
+#twitter:        sparanoid
 
 # Use summary card with large image for Twitter Cards, require theme support
 # Default:      true
