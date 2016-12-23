@@ -116,11 +116,5 @@ js = d.createElement(s); js.id = id;
 js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.8";
 fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-like"
-  data-href="https://sanghoyoon.github.io"
-  data-layout="standard"
-  data-action="like"
-  data-show-faces="true">
-</div>
-  <div class="fb-comments" data-href="https://sanghoyoon.github.io" data-numposts="5"></div>
+<div class="fb-like" data-href="{{site.url}}{{page.url}}" data-layout="standard" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
+<div class="fb-comments" data-href="{{site.url}}{{page.url}}" data-numposts="5"></div>
