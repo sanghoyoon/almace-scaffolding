@@ -9,7 +9,7 @@
 
 source:         _app
 destination:    _site
-timezone:       America/Los_Angeles
+timezone:       South_Korea/Seoul
 permalink:      /:title.html
 markdown:       kramdown
 highlighter:    rouge
@@ -71,10 +71,10 @@ gems:
 dev:            false
 
 # Site name
-name:           Sangho
+name:           윤상호 블로그
 
 # Site description, will appear in the document meta and Atom feed subtitle
-description:    Almace Scaffolding - Super-fast Jekyll framework
+description:    윤상호 블로그
 
 # Base URL, this is useful when I need to build site in a subdirectory (like
 # GitHub Pages for Projects), it provides a specific URL prefix, for example, if
@@ -97,8 +97,8 @@ pshh:           https://pubsubhubbub.appspot.com/
 
 # Used in atom feed, sitemap, Twitter Cards, and etc. I should use absolute full
 # URLs for these fields
-url:            https://sparanoid.com
-
+url:            https://sanghoyoon.github.io/
+.
 # Media assets URL used in posts, without trailing slash. ie.
 # `<img src="{{ site.file }}/image.png">`. In the most cases this URL should be
 # powered by a CDN provider
@@ -117,11 +117,11 @@ download:       https://d1bmx7s6749k4k.cloudfront.net
 # Google Analytics tracking code
 google_analytics:
   enabled:      false
-  id:           UA-xxxxxxx
+  id:           UA-89156664-1
   url:          //www.google-analytics.com/analytics.js
 
 # Site Twitter account handle
-twitter:        sparanoid
+twitter:        윤상호 블로그
 
 # Use summary card with large image for Twitter Cards, require theme support
 # Default:      true
